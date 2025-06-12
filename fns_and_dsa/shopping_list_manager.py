@@ -20,7 +20,8 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            add_item = input("Item: ")  # Fixed typo "Iten" to "Item"
+            add_item = input("Enter the item to add: ")
+  # Fixed typo "Iten" to "Item"
             shopping_list.append(add_item)
             print(f"'{add_item}' added to the list.")  # Added confirmation
         elif choice == '2':
