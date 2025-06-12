@@ -1,7 +1,7 @@
-def perform_operation(num1, num2, opp):
+def perform_operation(num1, num2, operation):
     num1 = float(num1)
     num2 = float(num2)
-    match opp:
+    match operation :
         case "add":
             return num1 + num2
         case "subtract":
