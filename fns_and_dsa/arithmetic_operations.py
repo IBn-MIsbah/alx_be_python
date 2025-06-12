@@ -1,5 +1,5 @@
-def perform_operation(num1: float, num2:float, operation: str):
-    match operation :
+def perform_operation(num1, num2, operation):
+    match operation:
         case "add":
             return num1 + num2
         case "subtract":
